@@ -12,15 +12,9 @@ Input Image-
 Developed Logics-
 A.Blurimg-
  This applies a Gaussian blur to an image to reduce noise and detail.
-Output-
-[Uploading blimport cv2
+Output-![image](https://github.com/user-attachments/assets/8b473979-a4cc-4819-8f65-853dd458cb2b)
 
-img = cv2.imread('img.png')
-blur = cv2.GaussianBlur(img, (15, 15), 0)
 
-cv2.imshow('Blurred Image', blur)
-cv2.waitKey(0)
-cv2.destroyAllWindows()urimg.py…]()
 
  B.Contour-
  This detects contours in a grayscale image using a binary threshold and `cv2.findContours()`. 
