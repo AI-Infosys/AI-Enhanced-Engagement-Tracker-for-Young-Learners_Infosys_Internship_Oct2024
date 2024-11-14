@@ -107,8 +107,7 @@ Output-
  O.Template-
  This function performs template matching to locate a template image within a larger image.
 
- Output-
-
+ Output-![image](https://github.com/user-attachments/assets/f9934182-a257-434f-829a-d0d0ab45d78c)
 
 
 
@@ -119,6 +118,10 @@ Version-4.10.0.84
 Developed Logics-
 A.multivid-
 This function reads and displays images from a specified folder, printing the dimensions of each image.
+
+Output-
+![image](https://github.com/user-attachments/assets/2d6ee27e-a09c-46d2-866d-bfe6aa35171c)
+
 
 B.vid_fps-
 This function captures video from the webcam, displays it in real-time, and calculates the FPS.
@@ -140,19 +143,32 @@ This function reads and resizes two video files, concatenating them horizontally
 E.vid_stream-
 This function captures live video from the webcam and displays it in real-time.
 
-Annotaions
+# Annotaions
 Libraries/Frameworks Used-Opencv,LabelImg
 Version-4.10.0.84, Version of LabelImg- 1.8.6
 
+
 Developed Logics-
-A.Data_segregate-
+A. Data_segregate-
 This function organizes images and their label files into matched and unmatched directories.
+Output-
+![image](https://github.com/user-attachments/assets/19fea229-e620-4d0b-8d23-8109ecd83586)
 
-B.Label-
+
+B. Label-
 This function draws bounding boxes on images based on annotations in the label files.
+Input-
+![image](https://github.com/user-attachments/assets/ac9c5e15-7448-48e8-880a-197d18193672)
+Output-
+![image](https://github.com/user-attachments/assets/fd9e69d7-bb44-4cc0-8b51-ea5476ea8af4)
 
-C.Label_manipulate-
+
+C. Label_manipulate-
 This function updates class numbers in label files for object detection tasks.
+Input-
+![image](https://github.com/user-attachments/assets/84ee6bb5-f481-4d8f-a232-a83c31477811)
+Output-
+![image](https://github.com/user-attachments/assets/836781e9-425a-4bc5-bac6-e37bfd3e812c)
 
 
 # Face Recognition
@@ -168,14 +184,47 @@ datetime==5.5
 Developed Logics-
 A.vanshika_Face_Recognition-
 
-B.vanshika_attendence_save
-C.vanshika_Test
-D.vanshika_tools
-E.vanshika_Excel_sc
-F.vanshika_Excel_sc_dt
-G.vanshika_landmark
-H.vanshika_atten_score
-i.vanshika_avg_atten_score
+Input-
+![image](https://github.com/user-attachments/assets/99ea3eac-316e-47bd-b601-6a695ff7a512)
+Output-
+![image](https://github.com/user-attachments/assets/6cadd48e-f982-4811-8190-e2b67c8ddf36)
+
+B.vanshika_attendence_save-
+
+Output-
+![image](https://github.com/user-attachments/assets/6cadd48e-f982-4811-8190-e2b67c8ddf36)
+![image](https://github.com/user-attachments/assets/002b9d87-aebb-435b-a18d-c62800db3d4e)
+
+
+
+C.vanshika_Test-
+
+![image](https://github.com/user-attachments/assets/101663c5-189b-4275-b21d-34549b49a8b1)
+
+
+E.vanshika_Excel_sc-
+![image](https://github.com/user-attachments/assets/9f6b023f-641c-4282-80b5-0ddcf243c8e3)
+![image](https://github.com/user-attachments/assets/ce2ee54d-2bf8-48cb-94d4-27d64a3aef70)
+
+F.vanshika_Excel_sc_dt-
+![image](https://github.com/user-attachments/assets/3252f514-245f-4a2a-9535-c2eecbd688cd)
+![image](https://github.com/user-attachments/assets/ec55e608-5b36-4d9b-ba33-f93651aea447)
+
+G.vanshika_landmark-
+![image](https://github.com/user-attachments/assets/c4bbceab-2913-4e21-848f-f3966d124479)
+![image](https://github.com/user-attachments/assets/9e6d9ad1-3037-4fd1-9420-3e45ab3e5120)
+
+
+H.vanshika_atten_score-
+![image](https://github.com/user-attachments/assets/e41197c8-3976-4635-a22c-5f911d1b9d09)
+![image](https://github.com/user-attachments/assets/002b01c5-7f03-40a2-ac17-eab43e6f400b)
+
+i.vanshika_avg_atten_score-
+![image](https://github.com/user-attachments/assets/9d25555b-9d23-450c-a1d8-a0375aa13f38)
+![image](https://github.com/user-attachments/assets/48de0339-9ea7-42f6-8d2f-d823bea8b44b)
+
+
+
 
 
 
