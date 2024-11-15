@@ -183,6 +183,8 @@ datetime==5.5
 
 Developed Logics-
 A.vanshika_Face_Recognition-
+In this a pre-stored image of the target person is used to generate a known face encoding.
+Captures frames from the live camera feed and detects faces in real time.
 
 Input-
 ![image](https://github.com/user-attachments/assets/99ea3eac-316e-47bd-b601-6a695ff7a512)
@@ -190,6 +192,7 @@ Output-
 ![image](https://github.com/user-attachments/assets/6cadd48e-f982-4811-8190-e2b67c8ddf36)
 
 B.vanshika_attendence_save-
+This continuously monitors the live camera feed for faces, compares detected faces with the known encoding, and identifies the person.
 
 Output-
 ![image](https://github.com/user-attachments/assets/6cadd48e-f982-4811-8190-e2b67c8ddf36)
@@ -198,30 +201,58 @@ Output-
 
 
 C.vanshika_Test-
+This monitors the live camera feed for faces, compares detected faces.
 
 ![image](https://github.com/user-attachments/assets/101663c5-189b-4275-b21d-34549b49a8b1)
 
 
 E.vanshika_Excel_sc-
+This logs the name, date, time, and screenshot of recognized individuals and
+saves a screenshot whenever the individual is recognized.
+
+Output-
+
 ![image](https://github.com/user-attachments/assets/9f6b023f-641c-4282-80b5-0ddcf243c8e3)
 ![image](https://github.com/user-attachments/assets/ce2ee54d-2bf8-48cb-94d4-27d64a3aef70)
 
 F.vanshika_Excel_sc_dt-
+This logs the name, date, time, and screenshot details for recognized individuals and captures attendance at configurable intervals (1 minute and 5-minute gaps).
+
+Output -
+
 ![image](https://github.com/user-attachments/assets/3252f514-245f-4a2a-9535-c2eecbd688cd)
 ![image](https://github.com/user-attachments/assets/ec55e608-5b36-4d9b-ba33-f93651aea447)
 
 G.vanshika_landmark-
+This assesses attentiveness based on head pose (yaw and pitch).
+Marks individuals as "Attentive" or "Not Attentive" in real-time and
+captures and saves screenshots of the recognized individual.
+
+Output -
+
 ![image](https://github.com/user-attachments/assets/c4bbceab-2913-4e21-848f-f3966d124479)
 ![image](https://github.com/user-attachments/assets/9e6d9ad1-3037-4fd1-9420-3e45ab3e5120)
 
 
 H.vanshika_atten_score-
+This calculates an attentiveness score based on head pose (yaw and pitch), with a threshold to determine if the person is attentive and saves screenshots of the recognized person with an overlay of their attentiveness status and attention score.
+
+Output -
+
 ![image](https://github.com/user-attachments/assets/e41197c8-3976-4635-a22c-5f911d1b9d09)
 ![image](https://github.com/user-attachments/assets/002b01c5-7f03-40a2-ac17-eab43e6f400b)
 
 i.vanshika_avg_atten_score-
+This calculates attentiveness scores based on head pose estimation using dlib facial landmarks.
+Displays real-time attentiveness status and score on the video stream 
+and captures and saves screenshots of recognized individuals with their attention status for documentation.
+
+Output -
+
 ![image](https://github.com/user-attachments/assets/9d25555b-9d23-450c-a1d8-a0375aa13f38)
 ![image](https://github.com/user-attachments/assets/48de0339-9ea7-42f6-8d2f-d823bea8b44b)
+
+The End.
 
 
 
