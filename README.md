@@ -252,6 +252,25 @@ Output -
 ![image](https://github.com/user-attachments/assets/9d25555b-9d23-450c-a1d8-a0375aa13f38)
 ![image](https://github.com/user-attachments/assets/48de0339-9ea7-42f6-8d2f-d823bea8b44b)
 
+Implementation of self added additional features-
+Added a Duration Tracking Feature
+Track how long the user was attentive during the session. Calculate the time spent being attentive and store it in the Excel log.
+
+Improved UI with Text and Color Coding
+Color-code text and rectangles based on attention score range (e.g., green for high, red for low).
+
+Output-
+
+![image](https://github.com/user-attachments/assets/e8a8e503-9110-46e1-81e4-3ff14a0b9403)
+![image](https://github.com/user-attachments/assets/f3c4f039-88fb-4396-bbe6-3ffa6daaec31)
+![image](https://github.com/user-attachments/assets/4e6a7c10-bd26-4336-881e-2f7a23320dc5)
+
+
+
+python
+Copy code
+
+
 The End.
 
 
