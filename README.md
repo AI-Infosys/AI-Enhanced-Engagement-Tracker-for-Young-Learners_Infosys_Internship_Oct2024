@@ -252,11 +252,12 @@ Output -
 ![image](https://github.com/user-attachments/assets/9d25555b-9d23-450c-a1d8-a0375aa13f38)
 ![image](https://github.com/user-attachments/assets/48de0339-9ea7-42f6-8d2f-d823bea8b44b)
 
-Implementation of self added additional features-
-Added a Duration Tracking Feature
+# Implementation of self added additional features-
+
+1.Added a Duration Tracking Feature
 Track how long the user was attentive during the session. Calculate the time spent being attentive and store it in the Excel log.
 
-Improved UI with Text and Color Coding
+2.Improved UI with Text and Color Coding
 Color-code text and rectangles based on attention score range (e.g., green for high, red for low).
 
 Output-
